@@ -33,37 +33,7 @@
 
 /* File input styles with button class */
 .fileInput {
-  /* Hide default input appearance */
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  /* Match button styles */
-  background-color: #8a2be2;
-  border: 2px solid #6a1ab9;
-  color: white;
-  padding: 12px 24px;
-  text-align: center;
-  text-align-last: left;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Hover effect */
-.fileInput:hover {
-  background-color: #9933cc;
-}
-
-/* Focus effect */
-.fileInput:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-/* Active effect */
-.fileInput:active {
-  background-color: #800080;
+  margin-left: 10px;
 }
 
 @media (max-width: 768px) {
