@@ -108,25 +108,34 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <h1 className={styles.toolHeader}>JSON Prettify/Minify Tool</h1>
+  <div>
+    <h1 className={styles.toolHeader}>JSON Prettify/Minify Tool</h1>
       <div className={styles.container}>
         <div className={styles.left}>
-          <h3 className={styles.center}>Input</h3>
+          <h3 className={styles.centerLabel}>Input</h3>
           <button onClick={insertSampleJSON}>Sample JSON</button>
           <button onClick={clear}>Clear</button>
-          <textarea value={input} onChange={handleChange} />
-          <input className={styles.fileInput} type="file" onChange={handleFileChange} />
+          <label className={styles.centerLabel}>
+            Input JSON:
+            <textarea value={input} onChange={handleChange} />
+          </label>
+          <label className={styles.centerLabel}>
+            Upload JSON File: 
+            <input className={styles.fileInput} type="file" onChange={handleFileChange} />
+          </label>
         </div>
         <div className={styles.center}>
-            <button onClick={prettyPrint}> Prettify</button>
-            <button onClick={minify}>Minify</button>
+          <button onClick={prettyPrint}>Prettify</button>
+          <button onClick={minify}>Minify</button>
         </div>
         <div className={styles.right}>
-          <h3 className={styles.center}>Output</h3>
+          <h3 className={styles.centerLabel}>Output</h3>
           <button onClick={copyToClipboard}>Copy</button>
           <button onClick={download}>Download</button>
-          <textarea value={output} readOnly />
+          <label className={styles.centerLabel}>
+            Output JSON:
+            <textarea value={output} readOnly />
+          </label>
         </div>
       </div>
       <div>
