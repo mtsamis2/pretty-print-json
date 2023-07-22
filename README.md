@@ -1,4 +1,6 @@
-This is the code behind [prettyprintjson.com](https://www.prettyprintjson.com/)
+This is the code behind [prettyprintjson.com](https://www.prettyprintjson.com/) which is a Json Prettify/Minify Tool.
+
+Easily format and beautify your JSON code with this online JSON editor. Features include JSON validation, minify, upload, copy, and download. Perfect for developers and anyone working with JSON data.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
