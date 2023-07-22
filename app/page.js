@@ -112,7 +112,7 @@ export default function Home() {
     <h1 className={styles.toolHeader}>JSON Prettify/Minify Tool</h1>
       <div className={styles.container}>
         <div className={styles.left}>
-          <h3 className={styles.centerLabel}>Input</h3>
+          <h2 className={styles.centerLabel}>Input</h2>
           <button onClick={insertSampleJSON}>Sample JSON</button>
           <button onClick={clear}>Clear</button>
           <label className={styles.centerLabel}>
@@ -129,7 +129,7 @@ export default function Home() {
           <button onClick={minify}>Minify</button>
         </div>
         <div className={styles.right}>
-          <h3 className={styles.centerLabel}>Output</h3>
+          <h2 className={styles.centerLabel}>Output</h2>
           <button onClick={copyToClipboard}>Copy</button>
           <button onClick={download}>Download</button>
           <label className={styles.centerLabel}>
