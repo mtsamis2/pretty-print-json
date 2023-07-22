@@ -111,8 +111,8 @@ export default function Home() {
   return (
     <div>
       <Layout
-        title={'Json Prettify/Minify Tool - MikeTsamis.com'}
-        description={'Easily format and beautify your JSON code with our online JSON editor. Features include JSON validation, minify, upload, copy, and download. Perfect for developers and anyone working with JSON data.'}
+        title={'Json Prettify/Minify Tool - PrettyPrintJson.com'}
+        description={'Easily format and beautify your JSON code with this online JSON editor. Features include JSON validation, minify, upload, copy, and download. Perfect for developers and anyone working with JSON data.'}
       >
         <h2 className={styles.toolHeader}>JSON Prettify/Minify Tool</h2>
         <div className={styles.container}>
