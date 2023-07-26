@@ -7,6 +7,10 @@
   margin: 20px;
 }
 
+.infoContainer {
+  margin: 20px;
+}
+
 .left {
   width: 33%;
   display: flex;
