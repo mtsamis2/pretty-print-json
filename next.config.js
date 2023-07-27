@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+    async redirects() {
+      return [
+        {
+          source: '/zb_users/:path*',
+          destination: '/',
+          permanent: true,
+        }
+      ]
+    },
+  }
+  
