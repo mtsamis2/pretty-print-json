@@ -152,8 +152,8 @@ export default function Home() {
           </label>
         </div>
         <div className={styles.center}>
-          <button onClick={prettyPrint}>Prettify</button>
-          <button onClick={minify}>Minify</button>
+          <button onClick={prettyPrint}>JSON Prettify</button>
+          <button onClick={minify}>JSON Minify</button>
           <button onClick={toXML}>To XML</button>
           <button onClick={toYAML}>To YAML</button>
         </div>
@@ -173,8 +173,8 @@ export default function Home() {
           <p>Are you ready to dive into the wonderful world of JSON formatting? Let's make your JSON data look absolutely stunning and easily readable! Follow these simple steps:</p>
           <ol>
             <li>Begin your JSON journey by either copying and pasting your JSON data into the "Input" text area or, for added convenience, upload a JSON file using the delightful "Choose File" button.</li>
-            <li>Now, here comes the magical part! With just a click on the "Prettify" button, watch as the JSON data transforms into a beautifully structured and elegantly indented masterpiece. It's like giving your JSON a spa day and pampering it with the royal treatment!</li>
-            <li>If you prefer your data in a more compact form, just like a minimalist art piece, we've got you covered too! Simply click on the "Minify" button to remove any excess white spaces, and voilà! Your JSON data will be space-efficient and ready to impress.</li>
+            <li>Now, here comes the magical part! With just a click on the "JSON Prettify" button, watch as the JSON data transforms into a beautifully structured and elegantly indented masterpiece. It's like giving your JSON a spa day and pampering it with the royal treatment!</li>
+            <li>If you prefer your data in a more compact form, just like a minimalist art piece, we've got you covered too! Simply click on the "JSON Minify" button to remove any excess white spaces, and voilà! Your JSON data will be space-efficient and ready to impress.</li>
             <li>Now, brace yourself for even more magic! This tool can also whisk your JSON data into a realm of enchanting formats: XML and YAML.</li>
             <li>Feast your eyes on the "Output" text area, where your newly transformed JSON data is displayed in all its glory. And hey, if you want to share this beauty with the world, just click on the "Copy" button to copy it to your clipboard effortlessly.</li>
             <li>But wait, there's more! Take your JSON elegance to the next level by clicking "Download" to save your masterpiece as a .JSON file. Now you can cherish it forever, even offline!</li>
